@@ -1,11 +1,12 @@
 ﻿using PatronesComportamiento.Patrones;
 
+
 internal class Program
 {
      private static void Main(string[] args)
     {
         Console.WriteLine("Sesion 05 - Patrones de comportamiento");
-
+    
         AppStrategy.Ejecutar();
 
         Separador();
@@ -26,7 +27,7 @@ internal class Program
 
         Separador();
 
-        AppChainOfResponsability.Ejecutar();
+        //AppChainOfResponsability.Ejecutar();
     }
 
     private static void Separador()
